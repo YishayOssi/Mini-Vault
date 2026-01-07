@@ -8,12 +8,12 @@ export function findByUsername(username) {
     }
     return found
 }  
-export function exists(username) {
+export function isExists(username) {
     const found = users.find((user)=> user.username === username)
     if (!found) {
-        return true
+        return false
     }
-    return false
+    return true
 }
 export function add(user) {
     users.push(user)
