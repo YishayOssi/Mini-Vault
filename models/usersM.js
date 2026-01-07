@@ -1,5 +1,5 @@
 import{ nanoid} from "nanoid"
-class Users {
+export class Users {
         constructor(username, password) {
             this.id =nanoid(4)
             this.username = username; 
