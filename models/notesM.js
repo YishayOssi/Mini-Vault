@@ -1,0 +1,10 @@
+import{ nanoid} from "nanoid"
+export class Notes {
+        constructor(ownerUsername, text) {
+            this.id = nanoid(4)
+            this.ownerUsername = ownerUsername; 
+            this.text= text; 
+            this.createdAt = new Date().toISOString(); }
+        }
+
+        
