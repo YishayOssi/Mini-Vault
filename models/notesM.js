@@ -6,6 +6,5 @@ class Notes {
             this.text= text; 
             this.createdAt = new Date().toISOString(); }
         }
-        const note = new Notes("feh","hgfdzsoisha")
-        console.log(note);
+
         
