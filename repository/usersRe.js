@@ -4,7 +4,7 @@ import { users } from "../db/usersDB.js";
 export function findByUsername(username) {
     const found = users.find((user)=> user.username === username)
     if (!found) {
-        return "not found!"
+        return false
     }
     return found
 }  
