@@ -21,6 +21,7 @@
   "dependencies": {
     "bcrypt": "^6.0.0",
     "nanoid": "^5.1.6",
-    "uuid": "^13.0.0"
+    "readline-sync": "^1.4.10"
+ 
   }
 }
