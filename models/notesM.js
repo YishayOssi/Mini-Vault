@@ -1,5 +1,5 @@
 import{ nanoid} from "nanoid"
-class Notes {
+export class Notes {
         constructor(ownerUsername, text) {
             this.id = nanoid(4)
             this.ownerUsername = ownerUsername; 
