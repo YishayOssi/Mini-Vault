@@ -1,6 +1,7 @@
 import { Users } from "../models/usersM.js"
 import { isExists, add, findByUsername } from "../repository/usersRe.js"
 
+
 export function register(username, password) {
   if (!username || !password || isExists(username) === true) {
     console.log("username alrady exists");
