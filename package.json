@@ -19,6 +19,8 @@
   },
   "homepage": "https://github.com/YishayOssi/Mini-Vault#readme",
   "dependencies": {
-    "bcrypt": "^6.0.0"
+    "bcrypt": "^6.0.0",
+    "nanoid": "^5.1.6",
+    "uuid": "^13.0.0"
   }
 }
